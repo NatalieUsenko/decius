@@ -1,0 +1,480 @@
+body{
+    background-color: #1F3042;;
+}
+
+.text{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+}
+.whiteText{
+    color: #fff;
+}
+.greenText{
+    color: #71D8A4;
+}
+.greyText{
+    color: #D6D6D6;
+}
+.italicText{
+    font-style: italic;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.containerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zindex2{
+    z-index: 2;
+}
+.paddingTop15{
+    padding-top: 15px;
+}
+
+.dp_h1{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 70px;
+}
+.dp_h3{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+}
+.dp_h4{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+}
+.dp_h5{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.dp_h6{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+textarea {
+    resize: none;
+}
+.btn_primary{
+    padding: 15px 48px 17px;
+    height: 50px;
+    background: #3BB979;
+    border-radius: 4px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #fff;
+}
+.btn_primary:hover{
+    background: #319B65;
+    color: #fff;
+}
+.btn_primary:focus{
+    background: #319B65 url(img/Ellipse_4.png) no-repeat center center;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.btn_secondary{
+    padding: 15px 48px 17px;
+    background: #1F3042;
+    border-radius: 4px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #fff;
+}
+.btn_secondary:hover{
+    background: #172331;
+    color: #fff;
+}
+.btn_secondary:focus{
+    background: #172331 url(img/Ellipse_1.png) no-repeat center center;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.blockTitle{
+    font-family: Titillium Web;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 72px;
+    line-height: 130%;
+}
+
+#navBar{
+    height: 90px;
+    width: 100%;
+    background: #fff;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 157px;
+    height: 36px;
+    display: block;
+    background-image: url(img/logo_h_dark.png);
+}
+.navMenu{
+    margin: 0;
+}
+#navBar .navMenu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navMenu>li>a{
+    color: #1F3042;
+    text-decoration: none;
+}
+.navMenu>li.active>a,
+.navMenu>li>a:hover{
+    color: #71D8A4;
+}
+.searchSite{
+    width: 51px;
+    height: 51px;
+    display: block;
+    background-image: url(img/ico_search.png);
+    margin: 0 15px;
+}
+.navMenu_logo{
+    width: 56px;
+    height: 50px;
+    border: none;
+    background: url(img/menu.png) no-repeat center;
+}
+#navBar .collapsing,
+#navBar .collapse.show{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    background: #fff;
+    z-index: 5;
+}
+.history{
+    padding-top: 80px;
+    min-height: 625px;
+    background: url(img/image_1.png) no-repeat top center;
+}
+.history::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 272px;
+    left: 0px;
+    top: 450px;
+    background: linear-gradient(180deg, rgba(31, 48, 66, 0) 0%, #1F3042 100%);
+}
+#timeLine{
+    margin: 0 25px 15px 35px ;
+    position: relative;
+}
+#timeLine::before{
+    content: "";
+    width: 1px;
+    height: 87%;
+    display: block;
+    background-color: #768292;
+    position: absolute;
+    top: 7%;
+    left: 100%;
+}
+.timeLine-link{
+    white-space: nowrap;
+    text-align: right;
+    color: #768292;
+    padding: 15px 25px;
+}
+.timeLine-link:hover{
+    color: #fff;
+}
+.timeLine-link.active{
+    color: #fff;
+    background-color: rgba(1,1,1,0)!important;
+    position: relative;
+}
+.timeLine-link.active::after{
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(100% - 6px);
+    background: url(img/Ellipse_3.png),url(img/Ellipse_2.png) no-repeat center center;
+}
+
+.timeLine-arrow{
+    width: 50px;
+    height: 50px;
+    background: url(img/arrow_no_active.png) no-repeat center center;
+    border: none;
+    margin-right: 15px;
+}
+.timeLine-arrow:hover{
+    cursor: pointer;
+    background: url(img/arrow_active.png) no-repeat center center;
+    transform: rotateX(180deg);
+}
+.arrowUp{
+    transform: rotateX(180deg);
+}
+.arrowUp:hover{
+    transform: rotateX(0deg);
+}
+.factsBlock{
+    position: relative;
+    padding-left: 25px;
+}
+.factsBlock:before{
+    content: '';
+    width: 3px;
+    height: 83px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: url(img/line_1.png) no-repeat;
+}
+.offices{
+    padding-top: 80px;
+}
+.footer{
+    padding-top: 80px;
+    margin-bottom: 75px;
+}
+
+.contactForm{
+    background: #223447;
+    border-radius: 8px;
+    padding: 64px;
+}
+.form-control,
+.form-select{
+    height: 50px;
+    border-radius: 4px;
+    padding: 17px 22px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #1F3042;
+    border: none;
+    margin-bottom: 25px;
+}
+.form-control:focus,
+.form-select:focus{
+    border: none;
+    box-shadow: none;
+}
+textarea.form-control{
+    height: 100px;
+}
+.form-label{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    color: #768292;
+    position: absolute;
+    left: 28px;
+    top: 17px;
+}
+.form-label>span{
+    color: red;
+}
+.form-check-label{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #768292;
+}
+.form-check-input{
+    width: 18px;
+    height: 18px;
+    background: #EDEFF6;
+    border: 1px solid #EDEFF6;
+    border-radius: 2px;
+}
+.form-check-input:checked{
+    background: #3BB979;
+    border: 1px solid #3BB979;
+}
+.form-check-input:focus{
+    border: none;
+    box-shadow: none;
+}
+.form-file-label{
+    height: 50px;
+    background: url(img/add_file_logo.png) no-repeat 13px 12px;
+    border: 1px dashed #768292;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 15px 10px 45px;
+}
+.btn_caption{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: -10px;
+}
+.btn_caption_sm{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 120%;
+}
+.form-file-label:hover{
+    cursor: pointer;
+}
+
+.clutchWid-inner{
+    border: 1px solid #768292;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+.clutchWid-header{
+    height: 64px;
+    border-bottom: 1px solid #768292;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #223447;
+    border-radius: 8px 8px 0px 0px;
+}
+.clutchWid-rating{
+    padding: 15px 25px 0;
+    border-bottom: 1px solid #768292;
+}
+.clutchWid-rating .rating{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.clutchWid-rating .stars{
+    padding: 15px;
+}
+.clutchWid-rating .reviews{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+    border-left: 1px solid #768292;
+    padding: 15px;
+}
+#clutchWidCarousel{
+    padding: 30px 50px 50px;
+}
+.carouselDate{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    color: #768292;
+    padding-left: 25px;
+    background: url(img/date_logo.png) no-repeat 0 center;
+}
+
+
+@media (max-width: 767.98px) {
+    #navBar{
+        padding: 0;
+        height: 50px;
+    }
+    .container{
+        padding: 0;
+    }
+    .logo{
+        margin: 0 18px;
+    }
+    .dp_h1 {
+        font-size: 32px;
+        line-height: 130%;
+    }
+    .dp_h2{
+        font-size: 28px;
+        line-height: 130%;
+    }
+    .history{
+        padding: 15px 40px 15px 15px;
+    }
+    #timeLine{
+        margin-left: 0;
+    }
+    .timeLine-link{
+        padding: 15px 10px;
+    }
+    .facts{
+        padding: 25px 15px 0 15px;
+    }
+    .factsBlock{
+        padding-bottom: 25px;
+        padding-right: 0;
+    }
+    .offices{
+        padding-top: 0;
+    }
+    .achievements{
+        padding: 15px 10px;
+    }
+    .achLogo{
+        margin: 20px;
+    }
+    .footer{
+        padding: 50px 15px;
+    }
+    .clutchWid{
+        margin-bottom: 40px;
+    }
+    .clutchWid-inner{
+        margin-right: 0;
+    }
+    .contactForm{
+        padding: 15px 20px;
+    }
+    .form-control,
+    .form-select{
+        margin-bottom: 15px;
+    }
+}

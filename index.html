@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;0,600;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <title>DICEUS Test Task</title>
+</head>
+<body>
+    <div id="navBar">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo"></div>
+            <div class="d-none d-lg-flex content-justify-between align-items-center">
+                <ul class="navMenu dp_h5">
+                    <li class="active"><a href="">Company</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Industries</a></li>
+                    <li><a href="">Expertise</a></li>
+                    <li><a href="">Case Studies</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+                <div class="contactSite">
+                    <button class="btn btn_secondary text-nowrap">Contact Us</button>
+                </div>
+                <div class="searchSite"></div>
+            </div>
+            <button class="btn navMenu_logo d-xxl-none d-xl-none d-lg-none d-md-block" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-expanded="false" aria-controls="navMenu"></button>
+            <div class="collapse" id="navMenu">
+                <ul class="navMenu dp_h5">
+                    <li class="d-block" class="active"><a href="">Company</a></li>
+                    <li class="d-block"><a href="">Services</a></li>
+                    <li class="d-block"><a href="">Industries</a></li>
+                    <li class="d-block"><a href="">Expertise</a></li>
+                    <li class="d-block"><a href="">Case Studies</a></li>
+                    <li class="d-block"><a href="">Blog</a></li>
+                </ul>
+                <div class="contactSite">
+                    <button class="btn btn_secondary text-nowrap">Contact Us</button>
+                </div>
+                <div class="searchSite"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="aboutUs">
+        <div class="history">
+            <div class="container">
+                <div class="dp_h1 whiteText">About us</div>
+                <div class="dp_h3 greenText">Our story</div>
+                <div class="row paddingTop15">
+                    <div class="col-lg-6 col-12 whiteText text zindex2">
+                        <p>Starting in 2011 out of Illia Pinchuk, the developer passionate about technology, DICEUS has become a reliable partner for custom software development and staff augmentation.</p>
+                        <p>The company’s headquarters opened in Kyiv in 2012 when the team grew while working on an e-commerce project. Within ten years, we expanded our expertise and introduced our services in the USA, UAE, Lithuania, Denmark, KSA.</p>
+                        <p>We strived to create a service that would be different from those available on the market all these years. Our goal was to guarantee customers that their software will be delivered on time, scope, and budget. Teamed up with like-minded people, we managed to do that. Today, we can confidently say that every project we accomplish is a success.</p>
+                    </div>
+                    <div class="col-lg-5 col-12 d-flex align-items-start zindex2">
+                        <div class="nav flex-column nav-pills" id="timeLine"  role="tablist" aria-orientation="vertical">
+                            <button class="nav-link timeLine-link dp_h6 active" id="timeLine-link-tab1"  data-bs-toggle="pill" data-bs-target="#timeLine-tab1" type="button" role="tab" aria-controls="timeLine-tab1" aria-selected="true">2011</button>
+                            <button class="nav-link timeLine-link dp_h6" id="timeLine-link-tab2" data-bs-toggle="pill"  data-bs-target="#timeLine-tab2" type="button" role="tab" aria-controls="timeLine-tab2" aria-selected="false">2012</button>
+                            <button class="nav-link timeLine-link dp_h6" id="timeLine-link-tab3" data-bs-toggle="pill" data-bs-target="#timeLine-tab3" type="button" role="tab" aria-controls="timeLine-tab3" aria-selected="false">2013</button>
+                            <button class="nav-link timeLine-link dp_h6" id="timeLine-link-tab4" data-bs-toggle="pill" data-bs-target="#timeLine-tab4" type="button" role="tab" aria-controls="timeLine-tab4" aria-selected="false">2015-2016</button>
+                            <button class="nav-link timeLine-link dp_h6" id="timeLine-link-tab5" data-bs-toggle="pill" data-bs-target="#timeLine-tab5" type="button" role="tab" aria-controls="timeLine-tab5" aria-selected="false">2017-2018</button>
+                            <button class="nav-link timeLine-link dp_h6" id="timeLine-link-tab6" data-bs-toggle="pill" data-bs-target="#timeLine-tab6" type="button" role="tab" aria-controls="timeLine-tab6" aria-selected="false">2019-2020</button>
+                            <button class="nav-link timeLine-link dp_h6" id="timeLine-link-tab7" data-bs-toggle="pill" data-bs-target="#timeLine-tab7" type="button" role="tab" aria-controls="timeLine-tab7" aria-selected="false">Today</button>
+                        </div>
+                        <div class="d-flex flex-column justify-content-between" style="height: 92%">
+                            <div class="tab-content align-self-start" id="timeLine-tabContent">
+                                <div class="tab-pane fade show active" id="timeLine-tab1" role="tabpanel" aria-labelledby="timeLine-link-tab1">
+                                    <div class="greenText blockTitle">2011</div>
+                                    <div class="text whiteText italicText">DICEUS was founded by software engineer Illia Pinchuk with a focus on enterprise-grade solutions. </div>
+                                </div>
+                                <div class="tab-pane fade" id="timeLine-tab2" role="tabpanel" aria-labelledby="timeLine-link-tab2">
+                                    <div class="greenText blockTitle">2012</div>
+                                    <div class="text whiteText italicText">A new e-commerce project allowed us to have grown and become a full-fledged IT company with headquarters in Kyiv.</div>
+                                </div>
+                                <div class="tab-pane fade" id="timeLine-tab3" role="tabpanel" aria-labelledby="timeLine-link-tab3">
+                                    <div class="greenText blockTitle">2013</div>
+                                    <div class="text whiteText italicText">DICEUS expanded its expertise and opened offices in Western Ukraine and Lithuania. </div>
+                                </div>
+                                <div class="tab-pane fade" id="timeLine-tab4" role="tabpanel" aria-labelledby="timeLine-link-tab4">
+                                    <div class="greenText blockTitle">2015-2016</div>
+                                    <div class="text whiteText italicText">The company grew to 60 members. An office in the UAE has been established.  </div>
+                                </div>
+                                <div class="tab-pane fade" id="timeLine-tab5" role="tabpanel" aria-labelledby="timeLine-link-tab5">
+                                    <div class="greenText blockTitle">2017-2018</div>
+                                    <div class="text whiteText italicText">DICEUS grew globally, acquiring customers from North America, Middle East, Asia, and Australia.  </div>
+                                </div>
+                                <div class="tab-pane fade" id="timeLine-tab6" role="tabpanel" aria-labelledby="timeLine-link-tab6">
+                                    <div class="greenText blockTitle">2019-2020</div>
+                                    <div class="text whiteText italicText"> We’ve been ranked as one of the top outsourcing providers from Eastern Europe. </div>
+                                </div>
+                                <div class="tab-pane fade" id="timeLine-tab7" role="tabpanel" aria-labelledby="timeLine-link-tab7">
+                                    <div class="greenText blockTitle">2021</div>
+                                    <div class="text whiteText italicText">DICEUS has gained a track record of 100+ projects and is trusted by more than 60 clients globally.</div>
+                                </div>
+                            </div>
+                            <div id="timeLine-PrewNext" class="d-flex">
+                                <button class="timeLine-arrow" id="timeLine-next" type="button"></button>
+                                <button class="timeLine-arrow arrowUp" id="timeLine-prev" type="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="facts">
+            <div class="container">
+                <div class="dp_h3 greenText">Facts about us</div>
+                <div>&nbsp;</div>
+                <div class="row">
+                    <div class="factsBlock col-lg-2 col-md-4 col-6">
+                        <div class="whiteText dp_h3">2011</div>
+                        <div class="whiteText text">the year DICEUS was established</div>
+                    </div>
+                    <div class="factsBlock col-lg-2 col-md-4 col-6">
+                        <div class="whiteText dp_h3">100+</div>
+                        <div class="whiteText text">projects delivered successfully</div>
+                    </div>
+                    <div class="factsBlock col-lg-2 col-md-4 col-6">
+                        <div class="whiteText dp_h3">6</div>
+                        <div class="whiteText text">offices around worldwide</div>
+                    </div>
+                    <div class="factsBlock col-lg-2 col-md-4 col-6">
+                        <div class="whiteText dp_h3">Ukraine</div>
+                        <div class="whiteText text">Delivery Center in Ukraine</div>
+                    </div>
+                    <div class="factsBlock col-lg-2 col-md-4 col-6">
+                        <div class="whiteText dp_h3">250+</div>
+                        <div class="whiteText text">full-time tech professionals </div>
+                    </div>
+                    <div class="factsBlock col-lg-2 col-md-4 col-6">
+                        <div class="whiteText dp_h3">80&nbsp;000</div>
+                        <div class="whiteText text">experts in the talent pipeline</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offices">
+            <div class="container ">
+                <div class="dp_h3 greenText text-center">Offices</div>
+            </div>
+            <div class="overflow-auto text-center">
+                <img src="img/world_map.png">
+            </div>
+        </div>
+        <div class="achievements">
+            <div class="container">
+                <div class="dp_h3 greenText text-center">Achievements</div>
+                <div>&nbsp;</div>
+                <div class="d-flex justify-content-between flex-wrap">
+                    <div class="achLogo">
+                        <img src="img/logo_1.png">
+                    </div>
+                    <div class="achLogo">
+                        <img src="img/logo_2.png">
+                    </div>
+                    <div class="achLogo">
+                        <img src="img/logo_3.png">
+                    </div>
+                    <div class="achLogo">
+                        <img src="img/logo_4.png">
+                    </div>
+                    <div class="achLogo">
+                        <img src="img/logo_5.png">
+                    </div>
+                    <div class="achLogo">
+                        <img src="img/logo_6.png">
+                    </div>
+                    <div class="achLogo">
+                        <img src="img/logo_7.png">
+                    </div>
+                    <div class="achLogo">
+                        <img src="img/logo_8.png">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="dp_h3 whiteText text-center d-none d-md-block">Contact us</div>
+                <div>&nbsp;</div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 clutchWid">
+                        <div class="clutchWid-inner flex-column h-100">
+                            <div class="clutchWid-header">
+                                <a href="https://clutch.co/profile/diceus#summary" target="_blank">
+                                    <img src="img/clutch_logo.png">
+                                </a>
+                            </div>
+                            <div class="clutchWid-rating">
+                                <div class="w-100 rating text-center">5/5</div>
+                                <div class="d-flex align-items-center">
+                                    <div class="stars w-50 text-nowrap">
+                                        <img src="img/star_full.png">
+                                        <img src="img/star_full.png">
+                                        <img src="img/star_full.png">
+                                        <img src="img/star_full.png">
+                                        <img src="img/star_full.png">
+                                    </div>
+                                    <div class="reviews w-50 text-nowrap"><span class="greenText">41</span> reviews</div>
+                                </div>
+                            </div>
+                            <div class="clutchWid-carousel">
+                                <div id="clutchWidCarousel" class="carousel slide" data-bs-ride="carousel pause">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="text greyText position-relative">
+                                                <p>"The way they precisely adhered to our agreements and timely reporting were the things that impressed us most."</p>
+                                                <div class="carouselDate">16.06.2021</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="text greyText position-relative">
+                                                <p>"The way they precisely adhered to our agreements and timely reporting were the things that impressed us most."</p>
+                                                <div class="carouselDate">16.06.2021</div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="text greyText position-relative">
+                                                <p>"The way they precisely adhered to our agreements and timely reporting were the things that impressed us most."</p>
+                                                <div class="carouselDate">16.06.2021</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#clutchWidCarousel"  data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#clutchWidCarousel"  data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="dp_h3 whiteText text-center d-xxl-none d-xl-none d-lg-none d-md-none d-block">Contact us</div>
+                    <div class="col-lg-8 col-md-6 col-12 contactForm">
+                        <form class="row g-3">
+                            <div class="col-lg-6 position-relative">
+                                <label for="inputName" class="form-label">Name<span>*</span></label>
+                                <input type="text" class="form-control inputRequired" id="inputName" required>
+                            </div>
+                            <div class="col-lg-6 position-relative">
+                                <label for="inputEmail" class="form-label">Email<span>*</span></label>
+                                <input type="email" class="form-control inputRequired" id="inputEmail" required>
+                            </div>
+
+                            <div class="col-lg-6 position-relative">
+                                <label for="inputQuestion" class="form-label">How can we help you?<span>*</span></label>
+                                <select id="inputQuestion" class="form-select inputRequired" required>
+                                    <option selected></option>
+                                    <option>...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6 position-relative">
+                                <label for="inputPhone" class="form-label">Phone</label>
+                                <input type="text" class="form-control" id="inputPhone">
+                            </div>
+                            <div class="col-12">
+                                <textarea type="text" class="form-control" id="inputMessage" placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="form-check d-flex d-lg-block">
+                                    <div class="col-6 col-lg-12">
+                                        <input class="form-check-input" type="checkbox" id="subscribeCheck" checked="checked">
+                                        <label class="form-check-label text-nowrap" for="subscribeCheck">Subscribe</label>
+                                    </div>
+                                    <div class="col-6 col-lg-12">
+                                        <input class="form-check-input" type="checkbox" id="sendCheck">
+                                        <label class="form-check-label text-nowrap" for="sendCheck">Send NDA</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <label for="formFile" class="form-file-label w-100">
+                                    <span class="whiteText btn_caption d-block">Add file</span>
+                                    <span class="whiteText btn_caption_sm">Max file size 10 Mb</span>
+                                </label>
+                                <input class="form-control d-none" type="file" id="formFile">
+                            </div>
+                            <div class="col-lg-6">
+                                <button type="submit" class="btn btn_primary w-100">Send request</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
